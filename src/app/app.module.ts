@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SnekComponent } from './snek/snek.component';
 import { TreeComponent } from './tree/tree.component';
+import { CatComponent } from './cat/cat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SnekComponent,
-    TreeComponent
+    TreeComponent,
+    CatComponent
   ],
   imports: [
     BrowserModule,
